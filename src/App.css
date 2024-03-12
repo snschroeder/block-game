@@ -1,0 +1,21 @@
+.block-game {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  width: 10%;
+  align-self: center;
+}
+
+.tile {
+  width: 40px;
+  height: 40px;
+}
+
+.occupied {
+  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
+}

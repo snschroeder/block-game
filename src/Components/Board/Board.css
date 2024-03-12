@@ -1,0 +1,16 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    width:360px;
+    margin: 6em auto;
+    border: 1px solid grey;
+}
+
+.unoccupied {
+    border: 1px solid grey;
+}
